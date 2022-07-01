@@ -1,0 +1,77 @@
+.chat{
+    position: relative;
+    height: 400px;
+    width: 250px;
+}
+
+.chat_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 50px;
+   background-color: #059ee0;
+
+}
+.chat_avatar{
+    height: 25px !important;
+    width: 25px !important;
+}
+.chat_search{
+
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 8px;
+}
+.chat_search>input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    flex: 1;
+    color: #fff;
+}
+.chat_search>input::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+.chat_post{
+    height: 359px;
+    background-color: #fff;
+    box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, .44) ;
+    margin-top: -9px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: scroll;
+}
+.chat_post::-webkit-scrollbar{
+    display: none;
+}
+.chat_post{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.chat_takePick{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 200px;
+    color: gray;
+    font-size: 40px !important;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.chat_takePick:hover{
+    opacity: .8;
+}
+.chat_searchIcon{
+    color: #fff;
+    font-size: 13px !important;
+}
+.chat_Icon{
+    color: #fff;
+    font-size: 18px !important;
+}
