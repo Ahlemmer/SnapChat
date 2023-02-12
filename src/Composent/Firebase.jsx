@@ -4,12 +4,12 @@ import { getFirestore} from 'firebase/firestore'
 import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 import {getStorage} from 'firebase/storage'
 const firebaseConfig = {
-  apiKey: "AIzaSyDBHA5o4sWw0GxBw7BMwnewFHkN8wt0hbw",
-  authDomain: "app-clone-b8297.firebaseapp.com",
-  projectId: "app-clone-b8297",
-  storageBucket: "app-clone-b8297.appspot.com",
-  messagingSenderId: "309709533039",
-  appId: "1:309709533039:web:885ffbde84ab6b81a4829a"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
